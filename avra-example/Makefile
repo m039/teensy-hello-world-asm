@@ -5,4 +5,4 @@ $(SRCFILE).hex: $(SRCFILE).asm
 	avra -l $(SRCFILE).lst -I $(INCPATH) $(SRCFILE).asm
 
 clean:
-	rm -f $(SRCFILE).hex $(SRCFILE).obj $(SRCFILE).cof
+	rm -f $(SRCFILE).hex $(SRCFILE).obj $(SRCFILE).cof $(SRCFILE).eep.hex $(SRCFILE).lst
