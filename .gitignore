@@ -1,5 +1,5 @@
-avra-example/blink.cof
-avra-example/blink.eep.hex
-avra-example/blink.hex
-avra-example/blink.lst
-avra-example/blink.obj
+*.cof
+*.eep.hex
+*.obj
+*.hex
+*.lst
